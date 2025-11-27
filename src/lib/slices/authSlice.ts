@@ -11,6 +11,7 @@ export interface Company {
 }
 
 export interface AuthUser {
+  id?: string;
   uuid?: string;
   displayName?: string;
   pictureUrl?: string;
